@@ -7,11 +7,32 @@
 
 .site-header.inicio{
     background-image: url(../images/header.jpg);
-    height: 100vh;
-    min-height: 600px;
     background-position: center center;
     background-size: cover;
+    height: 100vh;
+    min-height: 600px;
 }
 
+.barra{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px; 
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navegation a{
+    color: white;
+    text-decoration: none; 
+    font-size: 18px;    
+    margin-right: 20px; 
+}
+
+.navegation a:hover{
+    color: green;
+}
+.navegation a:last-of-type{
+    margin-right: 0;
+}
 
 
