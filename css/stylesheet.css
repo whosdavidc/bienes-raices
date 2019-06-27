@@ -1,6 +1,14 @@
 /**Globales**/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 .contenedor{
-    max-width: 1200px;
+    max-width: 120rem;
     margin: 0 auto 0 auto;
 }
 
@@ -10,24 +18,22 @@
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 60rem;
 }
 
 .barra{
     display: flex;
     justify-content: space-between;
-    padding-top: 30px; 
+    padding-top: 3rem; 
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .navegation a{
     color: white;
     text-decoration: none; 
-    font-size: 18px;    
-    margin-right: 20px; 
+    font-size: 1.8rem;    
+    margin-right: 2rem; 
 }
-
 .navegation a:hover{
     color: green;
 }
@@ -35,4 +41,7 @@
     margin-right: 0;
 }
 
+h1{
+    font-size: 2rem:
+}
 
