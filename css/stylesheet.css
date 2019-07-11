@@ -1,10 +1,12 @@
 /**Globales**/
 html{
     font-size: 62.5%;
+    line-height: 2;
 }
 
 body{
     font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
 }
 
 .contenedor{
@@ -13,6 +15,41 @@ body{
 }
 
 
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.4rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2.6rem;
+}
+
+
+/* Reutilizables */
+
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.ta-center{
+    text-align: center;
+}
+
+
+
+/* Header */
 .site-header.inicio{
     background-image: url(../images/header.jpg);
     background-position: center center;
@@ -26,6 +63,25 @@ body{
     justify-content: space-between;
     padding-top: 3rem; 
     align-items: center;
+}
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.contenido-header h1{
+    color: #fafafa;
+    padding-bottom: 4rem;
+    max-width: 50rem;
+    line-height: 2;
+}
+
+.sub-title{
+    font-size: 3rem;
 }
 
 .navegation a{
@@ -45,3 +101,34 @@ h1{
     font-size: 2rem:
 }
 
+.seccion.icons{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+
+.iconos-index{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+    .icono{
+        flex-basis: calc(33.3% - 1rem);
+    }
+
+        .icono h3{
+            text-transform: uppercase;
+        }
+
+
+
+.casas-depas{
+    display: flex;
+    justify-content: space-between;
+}
+
+    .casas-depas img{
+        width: 40rem;
+        height: 30rem;
+    }
