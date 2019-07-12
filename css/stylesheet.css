@@ -14,6 +14,10 @@ body{
     margin: 0 auto 0 auto;
 }
 
+img{
+    max-width: 100%;
+}
+
 
 h1{
     font-size: 3.8rem;
@@ -47,7 +51,40 @@ h4{
     text-align: center;
 }
 
+.d-block{
+    display: block!important;
+}
 
+/* Botones */
+
+.boton{
+    color: #fafafa;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.boton.bn-amarillo{
+    background-color: darkorange;
+    
+}
+
+.boton.bn-verde{
+    display: flex; 
+    background-color: green;
+    width: 10%;
+    
+}
+
+.ver-todas{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
 
 /* Header */
 .site-header.inicio{
@@ -124,11 +161,49 @@ h1{
 
 
 .casas-depas{
-    display: flex;
+    display: flex;  
+    flex-basis: calc(33.3% - 1rem); 
     justify-content: space-between;
+
 }
 
-    .casas-depas img{
-        width: 40rem;
-        height: 30rem;
+    .anuncio{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border: solid 1px rgb(194, 194, 194);
+        background-color: rgb(240, 236, 236);
+    }
+
+        .cont-a{
+            padding: 2rem;
+        }
+
+            .cont-a h2{
+                font-size: 3rem;
+            }
+
+            .cont-a h2, .cont-a p{
+                margin: 0;
+            }
+
+            .price{
+                color: green;
+                font-weight: 700;
+            }
+
+
+
+/*Contacto Home*/
+.img-contacto{
+    display: flex;
+    align-items: center;
+    background-image: url(../images/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+}
+
+    .contacto-cont{
+        flex: 1;
+        color: #fafafa;
     }
