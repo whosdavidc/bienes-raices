@@ -374,4 +374,15 @@ h1{
 
 
 
+/* ANUNCIOS*/
+
+.anuncios-bajo{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+
+
     
