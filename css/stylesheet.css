@@ -213,6 +213,7 @@ h1{
         padding: 0;
         display: flex;
         justify-content: space-evenly;
+        max-width: 50rem;
         
     }
 
@@ -383,6 +384,106 @@ h1{
 }
 
 
-
-
+    /*ANUNCIO*/
     
+    .main-anun{
+        width: 45%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+
+    .info-icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    }
+
+    .info-icons .price{
+        color: #71B100;
+    }
+
+    .iconos-depas.an p{
+        margin-right: 2rem;
+    }
+
+
+
+/* BLOG */
+.bloggy{
+    max-width: 80rem;
+}
+
+
+/* ENTRADA */
+.info-entrada{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.info-entrada span{
+    color: orange;
+}
+    
+
+
+
+/* CONTACTO */
+label{
+    display: block;
+}
+
+.submit-contact{
+    background-color: #71B100;
+    width: 10rem;
+    height: 4rem;
+    color: white;
+}
+
+
+input{
+    border-radius: 1rem;
+    border: 0;
+    background-color: #e1e1e1;
+    width: calc(100% - 2rem);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+label{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+textarea{
+    width: 96.9%;
+    height: 20rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0;
+    background-color: #e1e1e1;
+}
+
+
+.formaContacto{
+    display: flex;
+    margin: 0%;
+    align-items: baseline;
+}
+
+#correo , #telefono{
+    margin: 0;
+    width: 10rem;
+}
+
+
+button{
+    border: 0;
+    font-weight: bold;
+    margin-left: 0.2rem;
+    margin-top: 2rem;
+}
+
+legend{
+    font-size: 2rem;
+}
